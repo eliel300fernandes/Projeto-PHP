@@ -1,0 +1,40 @@
+
+
+body{
+	background: #f1f2f3;
+	background: #24292E;
+	padding-top: 130px;
+}
+.container{
+	width: 400px;
+	padding: 20px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid lightgray;
+}
+#icone-login{
+	font-size: 75px;
+}
+.text-center{
+	text-transform: uppercase;
+}
+.form-control{
+	border-radius: 0px;
+}
+input[type='email'], input[type='password']{
+	padding: 23px 17px;
+    font-size: 15px;
+    border: 1px solid #333;
+    margin-top: 5px;
+}
+.btn-primary{
+	padding-top: 14px;
+    padding-bottom: 29px;
+    margin-top: 19px;
+    box-shadow: 3px 3px lightgrey;
+    font-weight: bold;
+}
+.btn-primary:hover{
+	position: relative;
+	bottom:-2px;
+}
